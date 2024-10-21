@@ -15,7 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
     <!-- End -->
-    <link rel="stylesheet" href="LandingPageStyleSheet.css">
+    <link rel="stylesheet" href="landing-page-stylesheet.css">
+    <script type="module" src="./web-scraping/website.js" defer></script>
 </head>
 <body>
     <div id="first-container">
@@ -30,8 +31,8 @@
         <h1>More Digestible</h1>
         <h2>AI Summary and Fact Checking: Easily Read News and Check for Potential Bias in Your Stories</h2>
         <div id="submission">
-            <input type="url">
-            <button type="submit">Check</button>
+            <input type="url" id="url-input">
+            <button type="submit" id="check-button">Check</button>
         </div>
     </div>
 
